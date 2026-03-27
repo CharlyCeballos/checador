@@ -1,0 +1,25 @@
+{
+  "name": "checador",
+  "version": "1.0.0",
+  "description": "Es un checador automatico",
+  "homepage": "https://github.com/CharlyCeballos/checador#readme",
+  "bugs": {
+    "url": "https://github.com/CharlyCeballos/checador/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlyCeballos/checador.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "CharlyCeballos",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --watch index.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.58.2",
+    "node-cron": "4.2.1",
+    "dotenv": "17.3.1"
+  }
+}
